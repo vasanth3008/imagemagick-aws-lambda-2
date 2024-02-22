@@ -15,8 +15,8 @@ Resources:
       Description: Static build of ImageMagick for AWS Linux 2,
       ContentUri: build/layer.zip
       CompatibleRuntimes:
-        - nodejs10.x
-        - nodejs12.x
+        - nodejs20.x
+        - nodejs18.x
         - python3.8
       LicenseInfo: https://imagemagick.org/script/license.php
       RetentionPolicy: Retain
